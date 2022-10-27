@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 import java.lang.Character;
 
@@ -62,10 +63,6 @@ public class Cezar {
         sc.nextLine();
         char[] currentStr = sc.nextLine().toCharArray();
         printCipher(currentStr, shiftValue);
-/*        System.out.println("\nДешефрировать? \nВведите - д, если хотите дешефрировать. \nВведите -н, чтобы закончить выполнение программы");
-        String answerString = sc.nextLine();
-        if (answerString.equals("д")){
-            printCipher(currentStr, (shiftValue * (-1)));
-        }*/
+        System.out.println();
     }
 }
